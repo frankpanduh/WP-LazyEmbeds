@@ -1,7 +1,6 @@
 # 🐼 WP-LazyEmbeds 🐼
 
 ![GitHub release](https://img.shields.io/github/v/release/frankpanduh/wp-lazyembeds?style=flat-square)
-![License](https://img.shields.io/github/license/frankpanduh/wp-lazyembeds?style=flat-square)
 ![Issues](https://img.shields.io/github/issues/frankpanduh/wp-lazyembeds?style=flat-square)
 ![Build Status](https://img.shields.io/github/actions/workflow/status/frankpanduh/wp-lazyembeds/ci.yml?style=flat-square)
 
