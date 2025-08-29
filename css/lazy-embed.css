@@ -1,0 +1,11 @@
+.lazyembed-wrapper {
+  position: relative;
+  cursor: pointer;
+  background: #000;
+  overflow: hidden;
+}
+.lazyembed-thumb {
+  width: 100%;
+  height: auto;
+  display: block;
+}

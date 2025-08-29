@@ -1,0 +1,17 @@
+# WordPress
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/plugins/wp-lazy-embeds/vendor/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~

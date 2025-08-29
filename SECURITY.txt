@@ -1,0 +1,4 @@
+Contact: frank@panduh.dev
+Encryption: API keys stored with OpenSSL AES-256 encrypted in WP options table.
+Notes: Only used for Vimeo API or Cloudflare API calls to fetch LQIP thumbnails.
+Purpose: Avoid storing keys in plain text. Keys rotated easily without breaking site.

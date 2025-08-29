@@ -1,64 +1,43 @@
-# WP Lazy Embeds
+# 🐼 WP-LazyEmbeds 🐼
 
-[![License: Non-Commercial](https://img.shields.io/badge/license-Non--Commercial-green)](LICENSE.txt)
+![GitHub release](https://img.shields.io/github/v/release/frankpanduh/wp-lazyembeds?style=flat-square)
+![License](https://img.shields.io/github/license/frankpanduh/wp-lazyembeds?style=flat-square)
+![Issues](https://img.shields.io/github/issues/frankpanduh/wp-lazyembeds?style=flat-square)
+![Build Status](https://img.shields.io/github/actions/workflow/status/frankpanduh/wp-lazyembeds/ci.yml?style=flat-square)
 
-A lightweight WordPress plugin to **lazy-load embedded media** (YouTube, Spotify, SoundCloud, Bandcamp, Apple Music, and more) while supporting legacy devices and improving page load speed. Optimized for WordPress, mobile, and modern caching setups.
+🐼✨🌴💿🎶🎹🎸
+```
+8   8  8 8""""8      8                        8""""                                 
+8   8  8 8    8      8     eeeee eeeee e    e 8     eeeeeee eeeee  eeee eeeee eeeee 
+8e  8  8 8eeee8      8e    8   8 "   8 8    8 8eeee 8  8  8 8   8  8    8   8 8   " 
+88  8  8 88     eeee 88    8eee8 eeee8 8eeee8 88    8e 8  8 8eee8e 8eee 8e  8 8eeee 
+88  8  8 88          88    88  8 88      88   88    88 8  8 88   8 88   88  8    88 
+88ee8ee8 88          88eee 88  8 88ee8   88   88eee 88 8  8 88eee8 88ee 88ee8 8ee88 
+                                                                                    
 
----
+**Lazy load all embedded iframes** on your WordPress site including Spotify, iTunes, Bandcamp, Vimeo, YouTube, Tidal, Deezer, Apple Music, and more.
 
-## 🌟 Features
+## Features
+- Lazy load iframes at fold for faster page load.
+- Optional fallback animations: glass style or spinning loaders.
+- Admin panel for settings & animation preview.
+- Secure API storage for Vimeo & Cloudflare (AES encrypted).
+- Local caching for LQIP thumbnails for speed (future roadmap).
 
-- Lazy-loads oEmbeds for **all major media platforms**:
-  - YouTube, Vimeo, Twitch
-  - Spotify, Apple Music, Deezer, Audius, Audiomack
-  - Bandcamp, Tidal, Napster, Pandora
-  - Bluesky, X (Twitter), Telegram
-  - Mailchimp forms, PayPal, Stripe
-- **Legacy device support** (optional):
-  - 3DeeS, WeeeU, Weee
-  - Older Android/iOS browsers
-- **Responsive embeds**: Auto-resizes for all screen sizes
-- **Accessibility options**: Default volume moderation, screen reader compatibility where supported
-- **Cloudflare aware**: Optional speed optimizations if using Cloudflare APO (API key encrypted)
-- **Admin panel toggles**:
-  - Enable/disable platforms individually
-  - Legacy mode on/off
-  - Privacy-friendly mode for affiliate links
+## Roadmap
+- Add LQIP fetch for all supported platforms using APIs.
+- Legacy mode toggle (3DS, WeeeU, etc.). (W.I.P)
+- Cloudflare optimization support.
+- Audio accessibility settings.
 
----
+## Installation
+1. Upload `wp-lazy-embeds` folder to `/wp-content/plugins/`.
+2. Activate plugin through the Plugins menu.
+3. Configure settings via the "Lazy Embeds" admin menu.
 
-## ⚡ Installation
+## Notes
+- Default placeholder is glass style.
+- Tiny LQIP images from some providers may be skipped.
+- Fallbacks for legacy browsers provided.
 
-1. Download or clone this repository:
-   - `git clone https://github.com/yourusername/wp-lazy-embeds.git`
-2. Upload the plugin folder to `/wp-content/plugins/`
-3. Activate the plugin from your WordPress admin dashboard
-4. Configure settings under **Settings → WP Lazy Embeds**
-
----
-
-## 🔧 Usage
-
-- Simply embed your links in WordPress posts/pages using the standard oEmbed method
-- The plugin automatically lazy-loads the media, replacing it with a placeholder until the user interacts
-- Legacy mode, accessibility options, and platform-specific toggles can be configured in the admin panel
-
----
-
-## 💡 Notes
-
-- **Non-commercial license**: Free to use or modify for non-commercial purposes. Attribution to Frank Panduh is required.
-- **Performance**: Compatible with Redis, Varnish, LiteSpeed, Nginx, and Apache caching setups
-- **Security**: Cloudflare API keys (if used) are encrypted; no tracking or user data is collected
-
----
-
-## 📁 License
-
-See [LICENSE.txt](LICENSE.txt) for full license details.
-
----
-
-## 📬 Author
-
-Frank Panduh – [https://panduh.dev](https://panduh.dev) – frank@panduh.dev
+Made in California "after taking the 405 to the 101 to get outta here and make this plugin..." by [Frank Panduh](https://panduh.dev)
